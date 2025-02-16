@@ -7,7 +7,7 @@ async function Loading() {
         <Products
             productsHeader={
                 <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-                    Our Products for All
+                    Our Products for ....
                 </h2>
             }
             className="max-w-2xl lg:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"

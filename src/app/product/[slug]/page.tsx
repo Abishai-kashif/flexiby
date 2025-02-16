@@ -16,6 +16,7 @@ async function Page({ params }: { params: Promise<{ slug: string }> }) {
     const query = GET_SLUG_QUERY(slug);
 
     const data: Product | CustomError = await getData(query);
+    await new Promise((resolve) => setTimeout(resolve, 4000));
 
     if (!data) {
         notFound();
