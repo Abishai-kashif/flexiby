@@ -65,9 +65,9 @@ function Footer() {
                         {/* paragraphs */}
                         <div className="w-full h-full flex flex-col gap-y-[15px] leading-tight text-gray-900">
                             <p className="text-[16px]">
-                                Email: abishaikashif975@positivus.com
+                                Email: abishaikashif975@gmail.com
                             </p>
-                            <p className="text-[16px]">Phone: 555-567-8901</p>
+                            <p className="text-[16px]">Phone: 317-264-8144</p>
                             <p className="text-[16px]">
                                 Address: 1234 Main St <br />
                                 Moonstone City, Stardust State 12345

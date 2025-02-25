@@ -33,6 +33,7 @@ function ShoppingCardModel() {
             await redirectToCheckout();
         } catch (error) {
             console.error(error);
+            // throw new Error((error as Error).message);
         }
     }
 
